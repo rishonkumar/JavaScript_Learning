@@ -24,5 +24,4 @@ function addEventListenerPromise(element, reslove) {
 addEventListenerPromise(button, 'click').then(e => {
     console.log('clicked')
     console.log(e)
-
 })
