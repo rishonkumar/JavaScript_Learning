@@ -38,5 +38,10 @@ p.forEach(function (person) {
   html += `<li> ${person}</li>`;
 });
 
+p.forEach((person) => {
+  // create a html template
+  html += `<li> ${person}</li>`;
+});
+
 console.log(html);
 ul.innerHTML = html;
