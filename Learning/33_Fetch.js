@@ -3,7 +3,7 @@ fetch(URL)
   .then((response) => {
     return response.json();
   })
-  .them((data) => {
+  .then((data) => {
     console.log(data.map((user) => user.name));
     // console.log(data)
   });
