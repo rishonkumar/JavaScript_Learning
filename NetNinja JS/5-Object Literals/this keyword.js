@@ -13,7 +13,7 @@ let user = {
   // if you want ot access blogs properties inside
   // this logBlogs
   //use NORMAL FUNCTION
-  //   Arrow function will take window object
+  //  Arrow function will take window object
   logBlogs: function () {
     // console.log(blogs); error
     console.log(this.blogs); // this is user context
