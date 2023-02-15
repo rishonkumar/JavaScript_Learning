@@ -16,4 +16,3 @@ document.addEventListener("wheel", (e) => {
   console.log(e);
   console.log(e.pageX, e.pageY);
 });
-  
